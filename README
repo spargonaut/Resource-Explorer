@@ -1,0 +1,7 @@
+The main copy of this code was copied from:
+http://mgmblog.com/2008/12/12/listing-androids-drawable-resources/
+
+then mavenized with robolectric
+
+to run it from the command line, use:
+mvn clean package android:deploy android:run
