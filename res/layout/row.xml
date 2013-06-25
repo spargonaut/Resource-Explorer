@@ -19,12 +19,14 @@
                   android:textSize="12sp"
                   android:textStyle="bold"
                   android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"/>
+                  android:layout_height="wrap_content"
+                  android:hint="text one" />
 
         <TextView android:id="@+id/text2"
                   android:textSize="12sp"
                   android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"/>
+                  android:layout_height="wrap_content"
+                  android:hint="text two" />
 
     </LinearLayout>
 

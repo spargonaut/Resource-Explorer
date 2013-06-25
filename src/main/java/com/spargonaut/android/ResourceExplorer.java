@@ -34,6 +34,7 @@ public class ResourceExplorer extends ListActivity {
 
             try {
                 String stg = Resources.getSystem().getResourceName(idx);
+                Log.v(CLASS_TAG, "resource name: " + stg + " with idx: " + idx);
 
                 data.put("line1", stg );
                 data.put("line2", idx );
@@ -43,6 +44,8 @@ public class ResourceExplorer extends ListActivity {
                 Log.v(CLASS_TAG, "didn't find anything at idx: " + idx);
             }
         }
+
+        Log.v(CLASS_TAG, "total resource count: " + resourceNames.size());
 
         String[] dataKeys = {"line1", "line2", "img"};
         int[] viewKeys = {R.id.text1, R.id.text2, R.id.img};
